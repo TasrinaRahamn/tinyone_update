@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+ margin:0 auto;
+ width:1270px;
+}
+body{
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+}
+ h2{
+    font-weight: bold;
+}
+/**head start**/
+.header{
+    height: 600px;
+    width: 100%;
+    margin-top: 20px;
+    background-color:#FCDB00;
+    overflow: hidden;
+    display: block;
+}
+.up{
+    height: 150px;
+    width: 100%;
+    display: block;
+}
+.logo{
+    width: 50%;
+    margin-left: 30px;
+    display: inline-block;
+}
+.logo img{
+    margin: 35px 20px;
+    margin-left: 70px;
+    float: left;
+    display: inline-block;
+}
+.logo h4{
+    margin: 45px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+.menubar{
+    float: right;
+    width: 45%;
+    display: block;
+}
+.menubar ul{
+       list-style: none;
+    }
+.menubar ul li{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 45px 52px;
+}
+.menubar ul li:last-child{
+    padding-right: 0px;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color:black;
+}
+.menubar ul li a:hover{
+    color: blue;
+}
+.slider{
+    height: 400px;
+    padding: 0px 100px;
+    overflow: hidden;
+    position: relative;
+}
+.left{
+    width: 30%;
+    float: left;
+    margin-top: 25px;
+}
+.left h3{
+    font-weight: normal;
+}
+.left ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 48px;
+    padding-top: 20px;
+}
+.right{
+    width: 40%;
+    float: right;
+}
+.bk{
+    height: 366px;
+    width: 245px;
+    margin-left: 45px;
+    background-color: white;
+    border-radius: 18px;
+    position: relative;
+}
+.front{
+    height: 300px;
+    width: 220px;
+    background-color: black;
+    margin-left: 13px;
+    position: absolute;
+    top: 31px;
+}
+.front img{
+    margin-top: 130px;
+    margin-left: 50px;
+    float: left;
+}
+.front h4{
+    color: #EACA00;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 135px;
+    margin-left: 105px;
+}
+.bottom{
+    position: absolute;
+    top: 382px;
+    left: 625px;
+}
+/**head end**/
+/**content start**/
+.service{
+    height: 600px;
+    width: 100%;
+    margin: 80px 0px;
+    background-color:#FFFFFF;
+    overflow: hidden;
+}
+.top{
+    height: 150px;
+    padding: 0px 100px;
+    text-align: center;
+}
+.top p{
+   padding: 10px 200px;
+}
+.down{
+    height: 420px;
+    padding: 0px 100px;
+    overflow: hidden;
+}
+.serv1{
+    float: left;
+    width: 32%;
+    height: 200px;
+}
+.commom{
+    margin-left: 20px;
+}
+.ser_lf{
+  float: left;
+  padding-right: 8px;
+}
+.ser_rht{
+    margin: 0px 59px;
+}
+.ser_rht h5{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+/**content end**/
+/**footer start**/
+.foot{
+    height: 600px;
+    width: 100%;
+    background-color:#010101;
+    overflow: hidden;
+    color: white;
+}
+.footer_form{
+    height: 300px;
+    padding: 0px 100px;
+    text-align: center;
+}
+.footer_form h2{
+    color: #EACA00;
+    margin-top: 60px;
+}
+.footer_form p{
+    padding: 10px 200px;
+}
+.footer_form form{
+    text-align: left;
+    margin-left: 208px;
+    margin-top: 25px;
+}
+.footer_form input{
+    width: 61%;
+    padding: 12px 10px;
+    border-radius: 5px;
+    border: none;
+}
+.footer_form button{
+    padding: 10px 22px;
+    background-color: #EACA00;
+    border: none;
+    border-radius: 3px;
+    margin-left: 12px;
+    font-weight: bold;
+}
+.footer_form ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 48px;
+    padding-top: 75px;
+}
+.footer_menu{
+    width: 100%;
+    height: 300px;
+    padding: 0px 100px;
+    overflow: hidden;
+}
+.news{
+    float: left;
+    width: 18%;
+    margin-top: 45px;
+}  
+.news:first-child{
+    margin-right: 110px;
+}
+.news ul{
+    list-style: none;
+}
+.news ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: 'PT Sans', sans-serif;
+}
+/**footer end**/
